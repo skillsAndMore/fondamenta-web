@@ -1,0 +1,69 @@
+//1. Codice index.html
+<header>
+    <h1>Homepage</h1>
+    <nav>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="chi-siamo.html">Chi Siamo</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+//2. Codice chi-siamo.html
+<header>
+    <h1>Chi Siamo</h1>
+    <nav>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Chi Siamo</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+//3. Codice news.html
+<header>
+    <h1>News</h1>
+    <nav>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chi-siamo.html">Chi Siamo</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+//4. Codice contatti.html
+<header>
+    <h1>Contatti</h1>
+    <nav>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chi-siamo.html">Chi Siamo</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="#">Contatti</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+//5. Esempio CSS p
+p{
+    color: red;
+}
+
+//6. Esempio CSS p a
+p a{
+    color: black;
+}
