@@ -1,0 +1,209 @@
+/****  Cleaning   ****/
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #eee;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    color: #444;
+    box-sizing: border-box;
+}
+/* Fine Cleaning */
+
+/****   General   ****/
+
+#primary article, #secondary div{
+    background-color: #fff;
+}
+
+#primary h2.tit, #secondary h2{
+    border-bottom: 3px solid #444;
+    width: 400px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+/* Fine General */
+
+/****   Header    ****/
+
+header#masthead{
+    background-color: #00BD9C;
+    border-bottom: 10px solid #0e6152;
+    height: 115px;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+#logo{
+    margin-left: 20px;
+}
+
+.site-branding, #site-navigation{ width: 50%; }
+.site-branding{ float: left; }
+#site-navigation{
+    float: right;
+    max-height: 115px;
+}
+#site-navigation a{
+    color: #fff;
+    display: inline-block;
+    margin: 0 10px;
+    padding-left: 32px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+li#home{ background: url(../img/m_home.png) no-repeat center left; }
+li#chi-siamo{ background: url(../img/m_chi-siamo.png) no-repeat center left; }
+li#news{ background: url(../img/m_news.png) no-repeat center left; }
+li#contatti{ background: url(../img/m_contatti.png) no-repeat center left; }
+
+/* Elementi Attivi */
+li#home.current_page_item{ background-image: url(../img/m_home_a.png); }
+li#chi-siamo.current_page_item{ background: url(../img/m_chi-siamo_a.png) no-repeat center left; }
+li#news.current_page_item{ background: url(../img/m_news_a.png) no-repeat center left; }
+li#contatti.current_page_item{ background: url(../img/m_contatti_a.png) no-repeat center left; }
+
+#site-navigation li.current_page_item a{ color: #0e6152; }
+
+.menu ul{ list-style-type: none; }
+
+.menu li{
+    display: inline-block;
+    line-height: 80px;
+}
+
+/****    Corpo    ****/
+
+#content{
+    margin: 0 20px;
+}
+
+#main article{
+    overflow: hidden;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+#main article img{
+    float: left;
+}
+
+#main article header, #main article section{
+    margin-left: 200px;
+}
+#main article header{ margin-top: 40px; }
+
+#main h2 a{ text-decoration: none; }
+#main h2 a:hover{ text-decoration: underline; }
+
+/* Fine Corpo */
+
+/****    Aside    ****/
+
+#secondary{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#secondary h2{ font-size: 24px; }
+
+#secondary div{
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+    padding: 10px;
+    overflow: hidden;
+}
+#secondary div.first{ margin-left: 0; }
+
+#secondary div img{ float: left; }
+
+#secondary .tit{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+/* Fine Aside */
+
+/****   Footer    ****/
+
+footer{
+    background-color: #00BD9C;
+    border-top: 10px solid #0e6152;
+    height: 65px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer li{
+    display: inline-block;
+}
+/* Fine Footer */
+
+/****   News    ****/
+
+.news #content{ overflow: hidden; }
+
+.news #main{
+    width: 67%;
+    float: left;
+    margin-right: 3%;
+}
+
+.news #main img{
+    box-shadow: 0px 4px 5px #000;
+    margin-right: 15px;
+}
+
+.news #secondary{ width: 30%; }
+
+.news #secondary div{
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+.news #secondary .forza,
+.news #secondary .social{ background: none; }
+
+.news #secondary .social .tit{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.news .social h2{ margin-top: 15px; }
+
+.news #secondary a{
+    display: block;
+    text-decoration: none;
+}
+.news #secondary a:hover{ text-decoration: underline; }
+
+.news #secondary .googlep{ background-color: #dd4b39; }
+.news .googlep a{ color: #7f2e25; }
+
+.news #secondary .twitter{ background-color: #00aced; }
+.news .twitter a{ color: #006b93; }
+
+.news #secondary .facebook{ background-color: #3b5998; }
+.news .facebook a{ color: #24365c; }
+
+/* Fine News */
