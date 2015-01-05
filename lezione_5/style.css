@@ -1,0 +1,11 @@
+h2{
+    background: black;
+    color: red;
+    font-size: 36px;
+}
+
+section{
+    /* Valori Temporali */
+    animation-delay: 3s; /* secondi */
+    animation-delay: 350ms; /* millisecondi */
+}
