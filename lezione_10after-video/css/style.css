@@ -1,0 +1,140 @@
+/****  Cleaning   ****/
+html, body{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #eee;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  padding: 0;
+  margin: 0;
+}
+
+*{
+  color: #444;
+  box-sizing: border-box;
+}
+/* Fine Cleaning */
+
+/****   General   ****/
+#primary article, #secondary div{
+  background-color: #fff;
+}
+
+#primary h2.tit, #secondary h2{
+  border-bottom: 3px solid #444;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  width: 400px;
+}
+/* Fine General */
+
+/****   Header    ****/
+header#masthead{
+  background-color: #00BD9C;
+  border-bottom: 10px solid #0e6152;
+  height: 117px;
+  clear: both;
+  margin-bottom: 20px;
+}
+
+#logo{ margin-left: 20px; }
+
+.menu ul{ list-style-type: none; }
+
+.menu li{
+  display: inline-block;
+  line-height: 80px;
+}
+
+.site-branding, #site-navigation{ width: 50%; }
+
+.site-branding{ float: left; }
+#site-navigation{
+  float: right;
+  max-height: 115px;
+}
+
+#home{ background: url(../img/m_home.png) no-repeat center left; }
+#chi-siamo{ background: url(../img/m_chi-siamo.png) no-repeat center left; }
+#news{ background: url(../img/m_news.png) no-repeat center left; }
+#contatti{ background: url(../img/m_contatti.png) no-repeat center left; }
+
+#site-navigation a{
+  color: #fff;
+  display: inline-block;
+  margin: 0 10px;
+  padding-left: 32px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+li#home.current_page_item{ background-image: url(../img/m_home_a.png); }
+
+#site-navigation li.current_page_item a{ color: #0e6152; }
+/* Fine Header */
+
+#content{
+  margin: 0 20px;
+}
+
+#main article{
+  overflow: hidden;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+#main article img{
+  float: left;
+}
+
+#main article header, #main article section{
+  margin-left: 200px;
+}
+#main article header{ margin-top: 40px; }
+
+#main h2 a{ text-decoration: none; }
+#main h2 a:hover{ text-decoration: underline; }
+
+/* Fine Corpo */
+
+/****    Aside    ****/
+
+#secondary{
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#secondary h2{ font-size: 24px; }
+
+#secondary div{
+  float: left;
+  width: 30%;
+  margin-left: 5%;
+  padding: 10px;
+  overflow: hidden;
+}
+
+#secondary div.first{ margin-left: 0; }
+
+#secondary div img{ float: left; }
+
+#secondary .tit{
+  margin-top: 30px;
+  margin-left: 100px;
+}
+/* Fine Aside */
+
+/****   Footer    ****/
+footer{
+  background-color: #00BD9C;
+  border-top: 10px solid #0e6152;
+  height: 65px;
+}
+
+footer ul{ list-style: none; }
+footer li{ display: inline-block; }
+/* Fine Footer */
