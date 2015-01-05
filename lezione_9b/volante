@@ -1,0 +1,100 @@
+//1. CSS Reset
+/****  Cleaning   ****/
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #eee;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    color: #444;
+    box-sizing: border-box;
+}
+/* Fine Cleaning */
+
+//2. Struttura HTML della Testata
+<header id="masthead" class="site-header" role="banner">
+    <div class="site-branding">
+        <a href="http://skillsandmore.org" id="logo">
+            <img src="img/logo.png" alt="Logo skillsAndMore">
+        </a>
+    </div>
+
+    <nav id="site-navigation" class="main-navigation" role="navigation">
+        <div class="menu">
+            <ul>
+                <li id="home" class="current_page_item"><a href="#">Home</a></li>
+                <li id="chi-siamo"><a href="chi-siamo.html">Chi Siamo</a></li>
+                <li id="news"><a href="news.html">News</a></li>
+                <li id="contatti"><a href="contatti.html">Contatti</a></li>
+            </ul>
+    </nav><!-- #site-navigation -->
+</header><!-- #masthead -->
+
+
+//3. Dimensioni Colori Testata
+header#masthead{
+    background-color: #00BD9C;
+    border-bottom: 10px solid #0e6152;
+    height: 115px;
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+//4. Impostare Logo
+#logo{
+    margin-left: 20px;
+}
+
+//5. Unica Riga
+#logo{ margin-left: 20px; }
+
+//6. Pulizia Lista
+.menu ul{ list-style-type: none; }
+
+.menu li{
+    display: inline-block;
+    line-height: 80px;
+}
+
+//7. Dividere in 2 la larghezza
+.site-branding, #site-navigation{ width: 50%; }
+
+//8. Posizioniamo i Contenitori Adiacenti
+.site-branding{ float: left; }
+#site-navigation{
+    float: right;
+    max-height: 115px;
+}
+
+//9. Aggiungiamo lo Stile al Menu
+#home{ background: url(../img/m_home_a.png) no-repeat center left; }
+#chi-siamo{ background: url(../img/m_chi-siamo.png) no-repeat center left; }
+#news{ background: url(../img/m_news.png) no-repeat center left; }
+#contatti{ background: url(../img/m_contatti.png) no-repeat center left; }
+
+#site-navigation a{
+    color: #fff;
+    display: inline-block;
+    margin: 0 10px;
+    padding-left: 32px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+//10. Aggiunta Regole Elementi Attivi
+/* Elementi Attivi */
+li#home.current_page_item{ background-image: url(../img/m_home_a.png); }
+
+#site-navigation li.current_page_item a{ color: #0e6152; }
