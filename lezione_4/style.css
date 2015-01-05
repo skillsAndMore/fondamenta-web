@@ -1,0 +1,32 @@
+h2{
+    background: black;
+    color: red;
+    font-size: 36px;
+}
+
+section{
+	border: 5px solid #000;
+}
+
+h2{
+    background-color: #0F0;
+    background-image: url("immagine.png");
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+
+h2{
+    border-top: 1px solid #F00;
+    border-right: 3px dotted #000;
+    border-bottom: 6px dashed #F00;
+    border-left: 4px inset #0F0;
+}
+
+section{
+    /* Valori Relativi */
+    margin-top: 1.4em;
+    font-size: 1.4rem;
+}
