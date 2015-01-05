@@ -1,0 +1,50 @@
+//1. Struttura elemento img
+<img src="percorso/immagine.jpg" alt="testo" width="200" height="100">
+
+//2. Modifica link
+<link rel='stylesheet' href='img/logo.png' type='text/css' media='all' />
+
+//3. Inserimento immagine
+<div class="site-branding">
+    <img src="img/logo.png" alt="Logo skillsAndMore">
+    <h1 class="site-title"><a href="#" rel="home">Lezione 8</a></h1>
+    <h2 class="site-description">Immagini, le Protagoniste del Web</h2>
+</div>
+
+//4. Immagine con Link
+<div class="site-branding">
+    <a href="http://skillsandmore.org">
+        <img src="img/logo.png" alt="Logo skillsAndMore">
+    </a>
+    <h1 class="site-title"><a href="#" rel="home">Lezione 8</a></h1>
+    <h2 class="site-description">Immagini, le Protagoniste del Web</h2>
+</div>
+
+//5. Immagine in linea
+<img src="img/img_small.png">
+
+//6. Rimuovi immagine da header
+<div class="site-branding">
+    <h1 class="site-title"><a href="#" rel="home">Lezione 8</a></h1>
+    <h2 class="site-description">Immagini, le Protagoniste del Web</h2>
+</div>
+
+//7. Aggiungi immagini via CSS
+h1{
+    background: url(../img/logo.png) no-repeat center left;
+}
+
+//8. Inserisci Sfondo senza Scorciatoia
+h1{
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+//9. Inserisci logo Completo
+h1{
+    background: url(../img/logo.png) no-repeat center left;
+    height: 117px;
+    padding-left: 195px;
+    line-height: 117px;
+}
