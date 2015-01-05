@@ -1,0 +1,103 @@
+//1. Regole Generali Struttura
+
+/****   General   ****/
+
+#primary article, #secondary div{
+    background-color: #fff;
+}
+
+#primary h2.tit, #secondary h2{
+    border-bottom: 3px solid #444;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    width: 400px;
+}
+
+/* Fine General */
+
+//2. Rifiniture Corpo
+
+/****    Corpo    ****/
+
+#content{
+    margin: 0 20px;
+}
+
+#main article{
+    overflow: hidden;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+#main article img{
+    float: left;
+}
+
+#main article header, #main article section{
+    margin-left: 200px;
+}
+#main article header{ margin-top: 40px; }
+
+#main h2 a{ text-decoration: none; }
+#main h2 a:hover{ text-decoration: underline; }
+
+/* Fine Corpo */
+
+//3. Gestire l'Aside
+/****    Aside    ****/
+
+#secondary{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#secondary h2{ font-size: 24px; }
+
+#secondary div{
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+    padding: 10px;
+    overflow: hidden;
+}
+
+/* Fine Aside */
+
+//4. Modifico Aside per Nuove Regole
+<aside id="secondary" role="complementary">
+    <h2>I Nostri Punti di Forza</h2>
+    <div class="first">
+        <img src="img/s_vendite.png" alt="Small Vendite">
+        <h3 class="tit">Consulenza Web</h3>
+    </div>
+    <div>
+        <img src="img/s_social.png" alt="Small Social">
+        <h3 class="tit">Consulenza Live</h3>
+    </div>
+    <div>
+        <img src="img/s_traffico.png" alt="Small Traffico">
+        <h3 class="tit">Bisogno di Aiuto?</h3>
+    </div>
+</aside><!-- #secondary -->
+
+//5. Sistemo il Margine Sinistro
+#secondary div.first{ margin-left: 0; }
+
+//6. Sposto Img e Centro Testo
+#secondary div img{ float: left; }
+
+#secondary .tit{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+//7. Stili Footer
+/****   Footer    ****/
+footer{
+    background-color: #00BD9C;
+    border-top: 10px solid #0e6152;
+    height: 65px;
+}
+
+footer ul{ list-style: none; }
+footer li{ display: inline-block; }
+/* Fine Footer */

@@ -1,0 +1,73 @@
+/****  Cleaning   ****/
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #eee;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    color: #444;
+    box-sizing: border-box;
+}
+/* Fine Cleaning */
+
+/****   General   ****/
+
+
+/* Fine General */
+
+/****   Header    ****/
+
+header#masthead{
+    background-color: #00BD9C;
+    border-bottom: 10px solid #0e6152;
+    height: 115px;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+#logo{
+    margin-left: 20px;
+}
+
+.site-branding, #site-navigation{ width: 50%; }
+.site-branding{ float: left; }
+#site-navigation{
+    float: right;
+    max-height: 115px;
+}
+#site-navigation a{
+    color: #fff;
+    display: inline-block;
+    margin: 0 10px;
+    padding-left: 32px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+li#home{ background: url(../img/m_home.png) no-repeat center left; }
+li#chi-siamo{ background: url(../img/m_chi-siamo.png) no-repeat center left; }
+li#news{ background: url(../img/m_news.png) no-repeat center left; }
+li#contatti{ background: url(../img/m_contatti.png) no-repeat center left; }
+
+/* Elementi Attivi */
+li#home.current_page_item{ background-image: url(../img/m_home_a.png); }
+
+#site-navigation li.current_page_item a{ color: #0e6152; }
+
+.menu ul{ list-style-type: none; }
+
+.menu li{
+    display: inline-block;
+    line-height: 80px;
+}
