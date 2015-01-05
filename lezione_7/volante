@@ -1,0 +1,83 @@
+//1. Selettore Tipo
+p{ color: #F00; }
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a{ color: #F00; }
+
+//2. Selettore Discendente
+p a{ color: #000; }
+
+h1 a{ color: #00F; }
+
+//3. Elementi a Selezionabili
+<p>Ciao <a href="#">io sono selezionato</a>.</p>
+<div>
+    <h1>Io <a href="#">non sono selezionato</a></h1>
+    <a href="#">Ma neanche io</a>
+    <p>All'interno di questo <strong>paragrafo abbiamo un
+        <a href="#">link selezionato</a></strong>.
+    </p>
+</div>
+
+//4. Seleziono <a> dentro <strong>
+p strong a{
+    color: #0F0;
+}
+
+//5. Seleziono soltanto gli elmenti a figli diretti di p
+p > a{ color: #0F0; }
+
+strong > a{ color: #F00; }
+
+//6. Condividi regole CSS tra piu' elementi
+h1, h2, h3{
+    //Regole CSS
+}
+
+//7. Seleziona con id
+#news{
+    //Regole CSS
+}
+li#contatti, #home{
+    //Regole CSS
+}
+
+//8. Seleziona una classe
+.home{
+    //Regole CSS
+}
+.tit{
+    //Regole CSS
+}
+h1.tit{
+    //Regole CSS
+}
+
+//9. Specificita'
+.tit{
+    color: #00F;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+h1{ text-decoration: none; }
+
+h1.tit{
+    color: red;
+    font-size: 26px;
+}
+
+//10. Classi Multiple
+.articolo{
+    font-family: Helvetica, sans-serif;
+    color: #333;
+}
+
+.testata{ background-color: #EEE; }
+.corpo{ background-color: #FFF; }
+
+.tit{ font-size: 25px; }
